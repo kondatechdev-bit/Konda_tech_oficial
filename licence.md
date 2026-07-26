@@ -30,4 +30,4 @@ O código deste repositório é fornecido "no estado em que se encontra" (AS IS)
 ---
 
 Para solicitações de uso comercial, parcerias de infraestrutura ou esclarecimentos legais, entre em contato através do e-mail oficial:
-**hello@kondatech.com**
+**kondatech.dev@gmail.com**
