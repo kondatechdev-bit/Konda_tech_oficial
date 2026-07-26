@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-ao" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Konda Tech - Fale com Nossos Especialistas</title>
+  <meta name="description" content="Entre em contacto com a equipe da Konda Tech. Atendimento comercial, suporte técnico enterprise e parcerias." />
+  <link rel="canonical" href="https://kondatech.dev/contact.html" />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%233b82f6'><rect width='24' height='24' rx='6'/><path d='M7 17V7l10 10V7' stroke='%23ffffff' stroke-width='2' stroke-linecap='round'/></svg>" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo" aria-label="Konda Tech Página Inicial">
+        <div class="logo-icon">
+          <img src="assets/images/konda_tech_logo.jpg" alt="Konda Tech Logo" class="logo-img" referrerPolicy="no-referrer" />
+        </div>
+        <div class="logo-text">Konda<span>Tech</span></div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">Sobre</a>
+        <a href="products.html" class="nav-link">Produtos</a>
+        <a href="technologies.html" class="nav-link">Tecnologias</a>
+        <a href="opensource.html" class="nav-link">Open Source</a>
+        <a href="roadmap.html" class="nav-link">Roadmap</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link active">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Alternar Tema">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm btn-pill">Falar com Especialista</a>
+        <button class="hamburger" aria-label="Abrir Menu Mobile" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="overlay" aria-hidden="true"></div>
+  <aside class="mobile-drawer">
+    <div>
+      <div class="logo">
+        <div class="logo-icon">
+          <img src="assets/images/konda_tech_logo.jpg" alt="Konda Tech Logo" class="logo-img" referrerPolicy="no-referrer" />
+        </div>
+        <div class="logo-text">Konda<span>Tech</span></div>
+      </div>
+      <div class="mobile-nav-list">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="about.html" class="mobile-nav-link">Sobre</a>
+        <a href="products.html" class="mobile-nav-link">Produtos</a>
+        <a href="technologies.html" class="mobile-nav-link">Tecnologias</a>
+        <a href="opensource.html" class="mobile-nav-link">Open Source</a>
+        <a href="roadmap.html" class="mobile-nav-link">Roadmap</a>
+        <a href="blog.html" class="mobile-nav-link">Blog</a>
+        <a href="careers.html" class="mobile-nav-link">Carreiras</a>
+        <a href="contact.html" class="mobile-nav-link active">Contacto</a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="section" style="padding-top: calc(var(--navbar-height) + 3rem);">
+      <div class="container text-center" style="max-width: 800px;">
+        <span class="section-badge">Atendimento Corporativo</span>
+        <h1 class="section-title">Entre em Contacto com a <span class="text-gradient">Konda Tech</span></h1>
+        <p class="section-subtitle">
+          Nossa equipe de arquitetos de software e especialistas de produto está pronta para atender a sua empresa.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Form & Details Section -->
+    <section class="section section-bg-alt">
+      <div class="container">
+        <div class="grid grid-cols-2">
+          <!-- Forma de Painel -->
+          <div class="card glass-panel reveal">
+            <h2 style="font-size: var(--font-xl); font-weight: 700; margin-bottom: 1.5rem;">Envie uma Mensagem</h2>
+            
+            <form data-validate>
+              <div class="form-group">
+                <label class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" placeholder="Seu nome" required />
+                <span class="form-error-msg"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">E-mail Corporativo</label>
+                <input type="email" class="form-control" placeholder="nome@suaempresa.com" required />
+                <span class="form-error-msg"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Assunto de Interesse</label>
+                <select class="form-control" required>
+                  <option value="">Selecione uma opção</option>
+                  <option value="enterprise">Demonstração De software funcionais</option>
+                  <option value="suporte">Suporte Técnico</option>
+                  <option value="parcerias">Parcerias e Alianças</option>
+                  <option value="outro">Outros Assuntos</option>
+                </select>
+                <span class="form-error-msg"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Mensagem</label>
+                <textarea class="form-control" placeholder="Descreva suas necessidades de infraestrutura..." required></textarea>
+                <span class="form-error-msg"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full" style="width: 100%;">Enviar Mensagem</button>
+            </form>
+          </div>
+
+          <!-- Detalhes do painel de Contacto -->
+          <div class="reveal delay-200" style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div class="card">
+              <h3 class="card-title" style="margin-bottom: 0.5rem;">Sede Principal</h3>
+              <p style="color: var(--text-secondary);">Huambo e Luanda<br />Angola estado Online</p>
+            </div>
+
+            <div class="card">
+              <h3 class="card-title" style="margin-bottom: 0.5rem;">Canais Diretos</h3>
+              <p style="color: var(--text-secondary); margin-bottom: 0.5rem;"><strong>Atendimento:</strong> kondatech.dev@gmail.com</p>
+              <p style="color: var(--text-secondary);"><strong>Telefone:</strong> +244 924 495 732</p>
+            </div>
+
+            <div class="card" style="background: var(--color-primary-light); border-color: rgba(59, 130, 246, 0.3);">
+              <h3 class="card-title" style="color: var(--color-primary);">Suporte 24/7 Enterprise</h3>
+              <p style="color: var(--text-secondary);">Clientes com contrato de suporte ativo possuem acesso direto ao portal exclusivo e telefone dedicado com SLA sub-15 minutos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Konda Tech. Todos os direitos reservados.</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Voltar ao Topo">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

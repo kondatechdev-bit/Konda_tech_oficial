@@ -1,0 +1,6 @@
+{
+  "name": "Konda Tech",
+  "description": "Website oficial da Konda Tech - Soluções tecnológicas inovadoras, Atlas Engine, Atlas Craft, Open Source e Ecossistema Tech.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Konda Tech",
+  "short_name": "KondaTech",
+  "description": "Plataforma de Infraestrutura, Atlas Engine e Soluções Tech",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%233b82f6'><rect width='24' height='24' rx='6'/><path d='M7 17V7l10 10V7' stroke='%23ffffff' stroke-width='2' stroke-linecap='round'/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
